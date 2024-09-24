@@ -107,7 +107,7 @@
             // 
             this.metroLabel4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroLabel4.AutoSize = true;
-            this.metroLabel4.ForeColor = System.Drawing.Color.Gray;
+            this.metroLabel4.ForeColor = System.Drawing.SystemColors.GrayText;
             this.metroLabel4.Location = new System.Drawing.Point(12, 559);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(289, 19);
