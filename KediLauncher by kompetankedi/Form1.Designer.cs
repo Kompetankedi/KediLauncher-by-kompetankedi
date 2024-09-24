@@ -45,6 +45,7 @@
             // 
             // textBox1
             // 
+            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.textBox1.Location = new System.Drawing.Point(815, 549);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(213, 29);
@@ -52,6 +53,7 @@
             // 
             // metroLabel3
             // 
+            this.metroLabel3.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroLabel3.AutoSize = true;
             this.metroLabel3.Location = new System.Drawing.Point(1034, 559);
             this.metroLabel3.Name = "metroLabel3";
@@ -61,6 +63,7 @@
             // 
             // metroLabel2
             // 
+            this.metroLabel2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroLabel2.AutoSize = true;
             this.metroLabel2.Location = new System.Drawing.Point(775, 559);
             this.metroLabel2.Name = "metroLabel2";
@@ -70,6 +73,7 @@
             // 
             // metroLabel1
             // 
+            this.metroLabel1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroLabel1.AutoSize = true;
             this.metroLabel1.Location = new System.Drawing.Point(631, 559);
             this.metroLabel1.Name = "metroLabel1";
@@ -79,6 +83,7 @@
             // 
             // metroButton1
             // 
+            this.metroButton1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroButton1.Location = new System.Drawing.Point(1420, 542);
             this.metroButton1.Name = "metroButton1";
             this.metroButton1.Size = new System.Drawing.Size(101, 36);
@@ -89,6 +94,7 @@
             // 
             // comboBox1
             // 
+            this.comboBox1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.ItemHeight = 23;
             this.comboBox1.Location = new System.Drawing.Point(1090, 549);
@@ -99,7 +105,9 @@
             // 
             // metroLabel4
             // 
+            this.metroLabel4.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroLabel4.AutoSize = true;
+            this.metroLabel4.ForeColor = System.Drawing.Color.Gray;
             this.metroLabel4.Location = new System.Drawing.Point(12, 559);
             this.metroLabel4.Name = "metroLabel4";
             this.metroLabel4.Size = new System.Drawing.Size(289, 19);
@@ -108,6 +116,7 @@
             // 
             // metroLabel5
             // 
+            this.metroLabel5.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroLabel5.AutoSize = true;
             this.metroLabel5.Location = new System.Drawing.Point(371, 559);
             this.metroLabel5.Name = "metroLabel5";
@@ -117,6 +126,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "1024",
@@ -142,6 +152,7 @@
             // 
             // metroButton2
             // 
+            this.metroButton2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.metroButton2.Location = new System.Drawing.Point(1319, 542);
             this.metroButton2.Name = "metroButton2";
             this.metroButton2.Size = new System.Drawing.Size(95, 36);
@@ -153,6 +164,9 @@
             // webView21
             // 
             this.webView21.AllowExternalDrop = true;
+            this.webView21.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.webView21.CreationProperties = null;
             this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
             this.webView21.Location = new System.Drawing.Point(1, 2);
@@ -179,10 +193,11 @@
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kedi Lancher V3";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();

@@ -70,7 +70,7 @@ namespace KediLauncher_by_kompetankedi
             var webViewEnvironment = await CoreWebView2Environment.CreateAsync(null, temp);
             await webView21.EnsureCoreWebView2Async(webViewEnvironment);
             webView21.Source = new Uri("https://minecraft-timeline.github.io/");
-
+            this.WindowState = FormWindowState.Maximized;
 
             path();
         }
