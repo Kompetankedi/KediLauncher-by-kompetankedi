@@ -50,6 +50,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(213, 29);
             this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "Test";
             // 
             // metroLabel3
             // 
@@ -149,6 +150,7 @@
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 29);
             this.comboBox2.TabIndex = 15;
+            this.comboBox2.Text = "2048";
             // 
             // metroButton2
             // 
